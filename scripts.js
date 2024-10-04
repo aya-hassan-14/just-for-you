@@ -89,7 +89,7 @@ function changeBackground() {
         body.classList.remove(backgrounds[currentIndex]);
         currentIndex = (currentIndex + 1) % backgrounds.length;
         body.classList.add(backgrounds[currentIndex]);
-    }, 5000);
+    }, 10000);
 }
 
 window.onload = function() {
